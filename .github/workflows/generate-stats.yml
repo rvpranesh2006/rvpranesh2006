@@ -1,0 +1,19 @@
+name: Generate GitHub Stats Images
+
+on:
+  schedule:
+    - cron: "0 0 * * *"  # runs once a day
+  workflow_dispatch:      # lets you run it manually too
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: jstrieb/github-stats@master
+        with:
+          username: rvpranesh2006
+          exclude_repos: ""
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
