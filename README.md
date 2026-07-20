@@ -74,7 +74,10 @@
 ---
 
 ### 📊 GitHub Stats
-
+<p align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=rvpranesh2006&show_icons=true&theme=default&hide_border=true" alt="Pranesh's GitHub stats" />
+  <img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=rvpranesh2006&hide_border=true" alt="GitHub Streak" />
+</p>
 
 
 <p align="center">
